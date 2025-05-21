@@ -1,4 +1,4 @@
 {
-  "workspace": ["components/*"],
+  "workspace": ["components/*", "packages/*"],
   "nodeModulesDir": "auto"
 }
