@@ -2,6 +2,7 @@
   "version": "5",
   "specifiers": {
     "npm:@ark-ui/react@^5.9.1": "5.9.1_react@19.1.0_react-dom@19.1.0__react@19.1.0_@internationalized+date@3.8.0",
+    "npm:@evilmartians/harmony@^1.4.0": "1.4.0",
     "npm:@types/react-dom@^19.1.5": "19.1.5_@types+react@19.1.5",
     "npm:@types/react@^19.1.5": "19.1.5",
     "npm:@vitejs/plugin-react@^4.4.1": "4.4.1_vite@6.3.5__picomatch@4.0.2_@babel+core@7.27.1",
@@ -350,6 +351,9 @@
       "integrity": "sha512-nOT2vZNw6hJ+z43oP1SPea/G/6AbN6X+bGNhNuq8NtRHy4wsMhw765IKLNmnjek7GvjWBYQ8Q5VBoYTFg9y1UQ==",
       "os": ["win32"],
       "cpu": ["x64"]
+    },
+    "@evilmartians/harmony@1.4.0": {
+      "integrity": "sha512-NgKkhTnQOSE07IvDxHHPLzFF81TaWU1Ir5nmaRM+PebXAol5vNXnk+Lp2JPgj1P/PBTu6lzSWckSpNjC19XSUw=="
     },
     "@floating-ui/core@1.7.0": {
       "integrity": "sha512-FRdBLykrPPA6P76GGGqlex/e7fbe0F1ykgxHYNXQsH/iTEtjMj/f9bpY5oQqbjt5VgZvgz/uKXbGuROijh3VLA==",
@@ -1996,6 +2000,12 @@
           "npm:react@^19.1.0",
           "npm:unocss@^66.1.2",
           "npm:vite@^6.3.5"
+        ]
+      },
+      "packages/preset": {
+        "dependencies": [
+          "npm:@evilmartians/harmony@^1.4.0",
+          "npm:unocss@^66.1.2"
         ]
       }
     }

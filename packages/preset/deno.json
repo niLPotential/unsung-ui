@@ -1,0 +1,6 @@
+{
+  "imports": {
+    "@evilmartians/harmony": "npm:@evilmartians/harmony@^1.4.0",
+    "unocss": "npm:unocss@^66.1.2"
+  }
+}
