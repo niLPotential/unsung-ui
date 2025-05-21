@@ -1,5 +1,6 @@
-import { defineConfig, presetMini } from "unocss";
+import { defineConfig } from "unocss";
+import presetUnsung from "../../packages/preset/index.ts";
 
 export default defineConfig({
-  presets: [presetMini()],
+  presets: [presetUnsung],
 });
